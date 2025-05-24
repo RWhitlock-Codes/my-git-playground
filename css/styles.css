@@ -12,10 +12,11 @@ html{
 }
 
 :root{
---nav-bar:#5C677D;
---nav-text:#000;
---header-background:#002855;
---header-text:#fff;
+--nav-bar:#2c3e50;
+--nav-text:#Ecf0f1;
+--accent-text:#5dade2;
+--header-text:#000;
+--header-background:#3498db;
 }
 
 /* header + navigation stlyes*/
@@ -61,7 +62,17 @@ background-color: var(--nav-bar);
 }
 
 /*navigation responsive*/
+.nav-links:hover{
+  font-weight: 700;
+  color:var(--accent-text);
+  text-decoration:underline;
+}
 
+.nav-links:focus{
+ outline:2px solid red;
+ outline-offset: 2px;
+ 
+}
 /*main title/text*/
 .main-container{
   width:100%;
