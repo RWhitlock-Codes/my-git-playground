@@ -11,10 +11,10 @@
 <link rel="manifest" href="./images/site.webmanifest">
 </head>
 <body>
- <header>
+ <header id="home">
   <nav>
     <div class="logo">
-      <a href="#">
+      <a href="#home">
       <img src="./images/android-chrome-192x192.png" 
       alt="My logo, that also acts as a link to home page" 
       class="logo-img"/>
@@ -22,17 +22,17 @@
     </div>
     <ul class="main-nav" aria-label ="Main navigation links">
       <li>
-        <a href="#" class="nav-links">
+        <a href="#home" class="nav-links">
           Home
         </a>
       </li>
       <li>
-        <a href="#" class="nav-links">
+        <a href="#flexbox" class="nav-links">
           CSS Flexbox Practice
         </a>
       </li>
       <li>
-        <a href="#" class="nav-links">
+        <a href="#grid" class="nav-links">
           CSS Grid Practice
         </a>
       </li>
@@ -48,16 +48,58 @@
   <ul class="main-list">
     <li><abbr title="Hypertext Markup Language">HTML</abbr></li>
     <li><abbr title="Cascading Style Sheets">CSS</abbr></li>
-    <li>Git & GitHub</li>
+    <li><abbr title="Global Information Tracker">Git</abbr> & GitHub</li>
   </ul>
   </div>
  </header>
  <main>
-  <section>
- <h2></h2>
+  <section id="git">
+ <h2 class="git-title">What Git I know</h2>
+ <ol class="git-list">
+  <li>
+    Cloning: Using git clone to clone my repositroies from GitHub
+    to my local machine.
+  </li>
+  <li>
+    Status: Using git status to check what files have been modified.
+  </li>
+  <li>
+    Add: Using git add . or git add file name to add the changes or codes I've added.
+  </li>
+  <li>
+    Commit: Using git commit -m "commit header" -m "commit details" to commit what I've added.
+  </li>
+  <li>
+    Push: Using Git push origin main to push the changes or codes I've added to GitHub
+    making it update the live website. 
+  </li>
+  <li>
+    Branching: Using git branch feature-name to create a new branch so I can make and test changes without
+    breaking the live website. Using Git checkout feature-name to access the new branch.
+  </li>
+  <li>
+    Merging: Using git merge feature-name to merge the branched version to the main version once I am happy with it. Using 
+    Git checkout origin main to go back to the main repo, ready for it to be commited and pushed.
+  </li>
+ </ol>
+ </section>
+ <section id="flexbox">
+  <h2 class="flexbox-title">Flexbox Practice</h2>
+  <div class="flexbox-container">
+    <div class="box" id="box-1"></div>
+    <div class="box" id="box-2"></div>
+    <div class="box" id="box-3"></div>
+    <div class="box" id="box-4"></div>
+    <div class="box" id="box-5"></div>
+    <div class="box" id="box-6"></div>
+  </div>
+ </section>
+ <section id="grid">
+  <h2 class="grid-title">Grid Practice</h2>
  </section>
  </main>
  <footer>
+  <h2>Checkout my GitHub</h2>
  </footer>
 </body>
 </html>
