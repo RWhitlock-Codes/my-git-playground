@@ -110,6 +110,7 @@ html{
   font-size:2.2rem;
   color:var(--nav-text);
   display:block;
+  font-family:"Roboto", sans-serif ;
 }
 
 .nav-links:hover,
@@ -149,11 +150,13 @@ html{
 .main-title{
   text-align: center;
   font-size:2.4rem;
+   font-family: "Share Tech", sans-serif;
 }
 
 .main-text{
   text-align: center;
   font-size:1.8rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 .main-list{
@@ -162,6 +165,7 @@ html{
   justify-content: center;
   font-size:1.8rem;
   list-style: none;
+  font-family: "Montserrat", sans-serif;
 }
 
 /*git section*/
@@ -178,10 +182,12 @@ padding:2.5rem;
 text-align: center;
 font-size:2.4rem;
 padding:1rem;
+font-family: "Share Tech", sans-serif;
 }
 
 .git-list{
   font-size:1.8rem;
+  font-family: "Montserrat", sans-serif;
   
  
 }
@@ -205,6 +211,7 @@ padding:1rem;
   font-size:2.4rem;
   text-align: center;
   padding-bottom:1rem;
+  font-family: "Share Tech", sans-serif;
 }
 
 .box{
@@ -226,6 +233,7 @@ padding:1rem;
   text-align: center;
   padding-top:6rem;
   padding-bottom:1rem;
+  font-family: "Share Tech", sans-serif;
 }
 
 .grid-container{
@@ -253,6 +261,7 @@ footer{
 .footer-title{
   text-align: center;
   font-size:2.8rem;
+  font-family: "Share Tech", sans-serif;
 }
 
 .footer-container{
@@ -269,6 +278,7 @@ footer{
   font-size:1.8rem;
   color:var(--header-text);
   text-decoration: none;
+  font-family:"Roboto", sans-serif ;
 }
 
 .github-link:hover, .github-link:focus{
