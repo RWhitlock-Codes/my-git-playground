@@ -12,7 +12,7 @@
 </head>
 <body>
  <header id="home">
-  <nav>
+  <nav class="main-nav-header">
     <div class="logo">
       <a href="#home">
       <img src="./images/android-chrome-192x192.png" 
@@ -20,6 +20,10 @@
       class="logo-img"/>
       </a>
     </div>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-controls="main-navigation-menu">
+    <label for="menu-toggle" class="menu-button" aria-label="Open navigation menu">
+      <span class="hamburger"></span>
+    </label>
     <ul class="main-nav" aria-label ="Main navigation links">
       <li>
         <a href="#home" class="nav-links">
@@ -34,6 +38,11 @@
       <li>
         <a href="#grid" class="nav-links">
           CSS Grid Practice
+        </a>
+      </li>
+      <li>
+        <a href="#github-link" class="nav-links">
+          GitHub link
         </a>
       </li>
     </ul>
@@ -54,10 +63,11 @@
  </header>
  <main>
   <section id="git">
+    <div class="git-container">
  <h2 class="git-title">What Git I know</h2>
  <ol class="git-list">
   <li>
-    Cloning: Using git clone to clone my repositroies from GitHub
+    Cloning: Using git clone to clone my repositories from GitHub
     to my local machine.
   </li>
   <li>
@@ -82,6 +92,7 @@
     Git checkout origin main to go back to the main repo, ready for it to be commited and pushed.
   </li>
  </ol>
+ </div>
  </section>
  <section id="flexbox">
   <h2 class="flexbox-title">Flexbox Practice</h2>
@@ -96,10 +107,37 @@
  </section>
  <section id="grid">
   <h2 class="grid-title">Grid Practice</h2>
+  <div class="grid-container">
+    <article class="grid-item" id="grid-item-1">
+      <div class="grid-box"></div>
+    </article>
+    <article  class="grid-item" id="grid-item-2">
+      <div class="grid-box"></div>
+    </article>
+    <article  class="grid-item" id="grid-item-3">
+      <div class="grid-box"></div>
+    </article>
+    <article  class="grid-item" id="grid-item-4">
+      <div class="grid-box"></div>
+    </article>
+    <article  class="grid-item" id="grid-item-5">
+      <div class="grid-box"></div>
+    </article>
+    <article  class="grid-item" id="grid-item-6">
+      <div class="grid-box"></div>
+    </article>
+  </div>
  </section>
  </main>
- <footer>
-  <h2>Checkout my GitHub</h2>
+ <footer id="github-link">
+  <h2 class="footer-title">Checkout my GitHub</h2>
+  <article class="footer-container">
+  <a href="https://github.com/RWhitlock-Codes"
+  target="_blank">
+    <img src="./images/GitHub_Invertocat_Dark.svg" alt="GitHub icon" class="github-logo">
+    </a>
+    <p><a href="https://github.com/RWhitlock-Codes" target="_blank" class="github-link">GitHub</a></p>
+  </article>
  </footer>
 </body>
 </html>
