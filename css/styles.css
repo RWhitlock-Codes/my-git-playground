@@ -288,7 +288,7 @@ footer{
   text-decoration: underline;
 }
 
-/*Tabelts*/
+/*Tablets*/
 @media screen and (min-width:576px){
   .main-container{
     min-height:40vh;
